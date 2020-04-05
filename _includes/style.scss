@@ -4,6 +4,7 @@ body {
     margin: 0;
     height: 100vh;
     background-color: #F6F6F6;
+    overflow: hidden;
 }
 
 a {
@@ -19,14 +20,16 @@ a {
 
 .rec-list {
     flex-basis: 14rem;
+    min-width: 14rem;
     background-color: #eeeeee;
 }
 
 .content {
-    flex-grow: 1;
-    max-width: 50%;
+    //flex-grow: 1;
+    //max-width: 50%;
     display: block;
     padding: 12px;
+    overflow: auto
 }
 
 .cat-list > a, .rec-list > a, .home, .rec-list h2 {

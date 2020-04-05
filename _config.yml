@@ -15,6 +15,7 @@ exclude:
   - .sass-cache
   - Gemfile
   - LICENSE
+  - _recipes/template.md
 keep_files:
   - .git
 encoding: "utf-8"

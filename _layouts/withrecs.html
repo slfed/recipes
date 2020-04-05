@@ -5,9 +5,9 @@ layout: withcats
 <div class="rec-list">
     <h2>Recipes</h2>
     {% if page.layout == "recipe" %}
-        {% assign cat = page.path | remove: '_recipes/' | split: '/' | first %}
+    {% assign cat = page.path | remove: '_recipes/' | split: '/' | first %}
     {% else %}
-        {% assign cat = page.title | downcase | replace: ' ', '-' %}
+    {% assign cat = page.title | downcase | replace: ' ', '-' %}
     {% endif %}
     {% for a in site.recipes %}
     {% assign dir = a.path | remove: '_recipes/' | split: '/' | first %}
@@ -17,4 +17,6 @@ layout: withcats
     {% endfor %}
 </div>
 
-{{ content }}
+<div class="content">
+    {{ content }}
+</div>
