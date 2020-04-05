@@ -1,14 +1,15 @@
 ---
+layout: recipe
 title: Prawn bok choy coconut curry
 yield: Enough for two
----
-
-# Ingredients
+time: 30 minutes
+ingredients:
 - 8 prawns
 - tin of coconut milk
 - head of bok choy
-
-# Method
-1. Fry the stuff.
-2. Throw in the coconut milk and prawns.
-3. Add the bok choy.
+method:
+- Fry the stuff.
+- Throw in the coconut milk and prawns.
+- Add the bok choy.
+notes: Add lemongrass!
+---

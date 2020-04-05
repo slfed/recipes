@@ -1,14 +1,15 @@
 ---
+layout: recipe
 title: Croissants
 yield: 12 croissants
----
-
-# Ingredients
+time: 1 day
+ingredients:
 - 1 cup flour
 - 1/2 cup sugar
 - lots of butter
-
-# Method
-1. Roll it out.
-2. Cool it down.
-3. Mix it up!
+method:
+- Roll it out.
+- Cool it down.
+- Mix it up!
+notes: Keep it coooold!
+---

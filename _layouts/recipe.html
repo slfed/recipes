@@ -12,13 +12,21 @@
     </head>
     <body>
         <h1>{{ page.title }}</h1>
-        {% assign cat = page.title | downcase | replace: ' ', '-' %}
-        {% for a in site.recipes %}
-        {% assign dir = a.path | remove: '_recipes/' | split: '/' | first %}
-        {% if dir contains cat %}
-        <a href='{{ a.url }}'>{{ a.title }}</a>
-        <br>
-        {% endif %}
-        {% endfor %}
+        <h3>Yield: {{ page.yield }} </h3>
+        <h3>Time: {{page.time }}</h3>
+        <h3>Ingredients</h3>
+        <ul>
+            {% for i in page.ingredients %}
+                <li>{{ i }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Method</h3>
+        <ol>
+            {% for m in page.method %}
+                <li>{{ m }}</li>
+            {% endfor %}
+        </ol>
+        <h3>Notes</h3>
+        <p>{{ page.notes }}</p>
     </body>
 </html>

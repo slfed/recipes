@@ -1,14 +1,15 @@
 ---
+layout: recipe
 title: Government bread
 yield: 1 medium-sized loaf
----
-
-# Ingredients
+time: 1 day
+ingredients:
 - 3 cups wholewheat flour
 - some honey
 - some oil
-
-# Method
-1. Stir everything together.
-2. Knead for 10 minutes.
-3. Preheat oven and bake.
+method:
+- Stir everything together.
+- Knead for 10 minutes.
+- Preheat oven and bake.
+notes: Yum!
+---

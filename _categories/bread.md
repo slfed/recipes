@@ -1,3 +1,4 @@
 ---
+title: Bread
 layout: category
 ---

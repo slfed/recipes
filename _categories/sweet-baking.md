@@ -1,4 +1,4 @@
 ---
-title: Curries
+title: Sweet baking
 layout: category
 ---
