@@ -18,7 +18,6 @@ method:
 - Preheat oven to 375˚F (190˚C).
 - In a large bowl, microwave chickpeas for 1 minute, or until softened.
 - Peel the cooked sweet potato, and add it to the bowl of chickpeas, along with the garlic, chili powder, and salt. Mash until chickpeas are finely mashed. Add cornmeal and scallions, and set aside.
-- For the barbecue sauce: In a medium-size bowl, combine tomato paste, water, maple syrup, apple cider vinegar, chili powder, garlic powder, and salt. Mix to combine.
 - Add barbecue sauce to the mashed chickpea mixture and mix until thoroughly combined.
 - Using a ½ cup (120 ml) measuring cup, portion 5 patties from the mixture. Place onto a lightly greased parchment-lined sheet pan.
 - Bake for 40 minutes, or until firm and browned, flipping over halfway through. (We grilled them on the stove over high heat for 5 mins on each side and then baked them for 10 mins, and they were great!)

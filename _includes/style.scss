@@ -25,11 +25,17 @@ a {
 }
 
 .content {
-    //flex-grow: 1;
-    //max-width: 50%;
     display: block;
     padding: 12px;
-    overflow: auto
+    overflow: auto;
+}
+
+.content > div {
+    width: calc(100vw - 28rem - 24px);
+}
+
+.content * {
+    width: 40vw;
 }
 
 .cat-list > a, .rec-list > a, .home, .rec-list h2 {
@@ -45,3 +51,10 @@ a {
     background-color: #cccccc;
 }
 
+.cat-hl {
+    background-color: #ae93ae;
+}
+
+.rec-hl {
+    background-color: #c2a4c2;
+}
