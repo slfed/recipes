@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100vh;
+}
+
+#cat-list {
+    flex-basis: 10rem;
+    background-color: #ff9797;
+}
+
+#rec-list {
+    flex-basis: 10rem;
+    background-color: #97ff97;
+}
+
+#content {
+    flex-grow: 1;
+    background-color: #9797ff;
+}
+
+#rec-list ul, #cat-list ul {
+    list-style-type: none;
+}

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div id="cat-list">
+    <h2><a href="/">Categories</a></h2>
+    <ul>
+        {% assign cats = site.categories | map: 'title' %}
+        {% for cat in cats %}
+        <li><a href='/category/{{ cat | downcase | replace: " ", "-" }}'>{{ cat | capitalize }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{{ content }}

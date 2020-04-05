@@ -1,24 +1,8 @@
 ---
+layout: withrecs
 ---
 
-<!doctype html>
-<html lang="en" class="no-js">
-    <head>
-        <meta charset="utf-8">
-        {%- assign seo_title = page.title | append: " " | append: '-' | append: " " | append: site.title -%}
-        {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
-        <title>{{ seo_title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1>{{ page.title }}</h1>
-        {% assign cat = page.title | downcase | replace: ' ', '-' %}
-        {% for a in site.recipes %}
-        {% assign dir = a.path | remove: '_recipes/' | split: '/' | first %}
-        {% if dir contains cat %}
-        <a href='{{ a.url }}'>{{ a.title }}</a>
-        <br>
-        {% endif %}
-        {% endfor %}
-    </body>
-</html>
+<div id="content">
+    <h2>{{ page.title }}</h2>
+    {{ page.description }}
+</div>

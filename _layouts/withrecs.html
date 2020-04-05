@@ -1,0 +1,22 @@
+---
+layout: withcats
+---
+
+<div id="rec-list">
+    <h2>Recipes</h2>
+    {% if page.layout == "recipe" %}
+        {% assign cat = page.path | remove: '_recipes/' | split: '/' | first %}
+    {% else %}
+        {% assign cat = page.title | downcase | replace: ' ', '-' %}
+    {% endif %}
+    <ul>
+    {% for a in site.recipes %}
+    {% assign dir = a.path | remove: '_recipes/' | split: '/' | first %}
+    {% if dir contains cat %}
+    <li><a href='{{ a.url }}'>{{ a.title }}</a></li>
+    {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+{{ content }}
