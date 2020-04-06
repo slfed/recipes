@@ -20,7 +20,9 @@ layout: default
         {%- endif -%}
     </h2>
     <div style="clear: both;"></div>
-    <p>Yield: {{ page.yield }}</p>
+    {%- if page.yield -%}
+        <p>Yield: {{ page.yield }}</p>
+    {%- endif -%}
     <p>Time: {{ page.time }}</p>
     {%- if page.notes -%}
         <p>Notes: {{ page.notes }}</p>
