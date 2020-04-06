@@ -5,8 +5,7 @@ layout: default
 {%- include cat-list.html -%}
 {%- include rec-list.html -%}
 <div class="content {% if page.layout == 'recipe' %}mob-vis{% endif %}">
-    <div class="dummy"></div>
-    <h2 style="float:left">
+    <h2>
         {{ page.title }}
         {%- if page.source -%}
             {%- if page.source contains "http" -%}
@@ -15,9 +14,7 @@ layout: default
             {%- else -%}
                 {%- assign sourcetext = "source: " | append: page.source -%}
             {%- endif -%}
-            <sub style="font-size:12px">
-                <a {% if source -%}href="{{ source }}"{%- endif -%}>{{ sourcetext }}</a>
-            </sub>
+            <sub><a {% if source -%}href="{{ source }}"{%- endif -%}>{{ sourcetext }}</a></sub>
         {%- endif -%}
     </h2>
     <div style="clear: both;"></div>

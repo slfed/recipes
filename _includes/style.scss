@@ -4,6 +4,7 @@ $sans-serif: Carlito, Calibri, sans-serif;
 $gray: #7a8288;
 $background-color: #F6F6F6;
 $text-color: mix(black, $gray, 40%);
+$light-color: #f6f4f6;
 
 @mixin sm {
     @media (min-width: #{600px}) {
@@ -58,7 +59,9 @@ p {
     flex-basis: 100vw;
     min-width: 100vw;
     background-color: #d6d6d6;
+    text-align: center;
     @include md {
+        text-align: initial;
         display: initial;
         flex-basis: $menu-width;
         min-width: $menu-width;
@@ -70,7 +73,9 @@ p {
     flex-basis: 100vw;
     min-width: 100vw;
     background-color: #eeeeee;
+    text-align: center;
     @include md {
+        text-align: initial;
         display: initial;
         flex-basis: $menu-width;
         min-width: $menu-width;
@@ -79,16 +84,21 @@ p {
 
 .content {
     display: none;
-    padding: $gen-padding;
-    overflow: auto;
+    padding: 0 $gen-padding;
+    overflow-y: auto;
+    overflow-x: hidden;
     @include md {
         display: block;
     }
 }
 
-.content > div.dummy {
+.content > h2 {
     @include md {
-        width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
+    }
+}
+.content.extra-width > h2 {
+    @include md {
+        width: calc(100vw - (#{$menu-width} + #{$gen-padding}));
     }
 }
 
@@ -99,12 +109,37 @@ p {
     }
 }
 
-.cat-list > a, .rec-list > a, .home, .rec-list h2 {
-    display: block;
-    padding: $gen-padding;
+.content > h2, .content > h3 {
+    width: 100vw;
+    @include md {
+        width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
+    }
 }
 
-.cat-list > a:hover, .home:hover {
+.cat-list > a, .rec-list > a {
+    display: block;
+    padding: $gen-padding;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.home, .rec-list > h2, .content > h2, .content > h3 {
+    display: block;
+    padding: $gen-padding;
+    margin-top: 0px;
+    background-color: #93ae93;
+    color: $light-color !important;
+}
+
+.home > a, sub > a {
+    color: $light-color !important;
+}
+
+.content > h2, .content > h3 {
+    margin-left: -$gen-padding;
+    padding-bottom: -$gen-padding;
+}
+
+.cat-list > a:hover {
     background-color: #b7b7b7;
 }
 
@@ -118,4 +153,15 @@ p {
 
 .rec-hl, .rec-hl:hover {
     background-color: #c2a4c2 !important;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub {
+  top: 0.4em;
+  font-size: 12px;
 }
