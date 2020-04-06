@@ -9,7 +9,15 @@ layout: default
     <h2 style="float:left">
         {{ page.title }}
         {%- if page.source -%}
-            <sub style="font-size:12px"><a style="text-decoration:underline;"href="{{ page.source }}">source</a></sub>
+            {%- if page.source contains "http" -%}
+                {%- assign source = page.source -%}
+                {%- assign sourcetext = 'source' -%}
+            {%- else -%}
+                {%- assign sourcetext = "source: " | append: page.source -%}
+            {%- endif -%}
+            <sub style="font-size:12px">
+                <a {% if source -%}href="{{ source }}"{%- endif -%}>{{ sourcetext }}</a>
+            </sub>
         {%- endif -%}
     </h2>
     <div style="clear: both;"></div>
