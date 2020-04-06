@@ -7,6 +7,6 @@
         {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
     {%- endif -%}
     {%- for c in cats -%}
-        <a {% if c == selcat %}class='cat-hl'{%- endif %} {% unless c == selcat -%}href='/{{ c }}'{%- endunless -%}>{{ c | replace: '-', ' ' | capitalize }}</a>
+        <a {% if c == selcat %}class='cat-hl'{%- endif %} href='/{{ c }}'>{{ c | replace: '-', ' ' | capitalize }}</a>
     {%- endfor -%}
 </div>

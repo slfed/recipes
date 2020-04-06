@@ -38,7 +38,9 @@ body {
     margin: 0;
     height: 100vh;
     background-color: $background-color;
-    overflow: hidden;
+    @include md {
+        overflow: hidden;
+    }
 }
 
 a {
@@ -60,6 +62,8 @@ p {
     min-width: 100vw;
     background-color: #d6d6d6;
     text-align: center;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     @include md {
         text-align: initial;
         display: initial;
@@ -74,6 +78,8 @@ p {
     min-width: 100vw;
     background-color: #eeeeee;
     text-align: center;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     @include md {
         text-align: initial;
         display: initial;
