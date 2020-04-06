@@ -1,5 +1,5 @@
 <div class="cat-list {% if page.layout == 'default' %}mob-vis{% endif %}">
-    <h2 class="home"><a href="/">Home</a></h2>
+    <h2 class="home"><a href="{{ '/' | relative_url }}">Home</a></h2>
     {%- assign cats = site.categories | map: 'slug' -%}
     {%- if page.layout == "recipe" -%}
         {%- assign selcat = page.path | remove: '_recipes/' | split: '/' | first -%}
@@ -7,6 +7,6 @@
         {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
     {%- endif -%}
     {%- for c in cats -%}
-        <a {% if c == selcat %}class='cat-hl'{%- endif %} href='/{{ c }}'>{{ c | replace: '-', ' ' | capitalize }}</a>
+        <a {% if c == selcat %}class='cat-hl'{%- endif %} href='{{ c | relative_url }}'>{{ c | replace: '-', ' ' | capitalize }}</a>
     {%- endfor -%}
 </div>
