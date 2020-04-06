@@ -1,6 +1,5 @@
 ---
 ---
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -9,10 +8,10 @@
     {%- assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once -%}
     <title>{{ seo_title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% capture styles %}{% include style.scss %}{% endcapture %}
+    {%- capture styles %}{% include style.scss %}{% endcapture %}
     <style>{{ styles | scssify }}</style>
   </head>
   <body>
-    {{ content }}
+    {{- content -}}
   </body>
 </html>

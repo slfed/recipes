@@ -1,5 +1,6 @@
 ---
 title: Cookies
 layout: category
-description: "Best part: decorating!"
 ---
+
+The best part? Decorating!

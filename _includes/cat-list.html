@@ -1,0 +1,13 @@
+<div class="cat-list {% if page.layout == 'default' %}mob-vis{% endif %}">
+    <h2 class="home"><a href="/">Boutyrophagoi</a></h2>
+    {%- assign cats = site.categories | map: 'title' -%}
+    {%- if page.layout == "recipe" -%}
+        {%- assign selcat = page.path | remove: '_recipes/' | split: '/' | first -%}
+    {%- elsif page.layout == "category" -%}
+        {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
+    {%- endif -%}
+    {%- for c in cats -%}
+        {%- assign clow = c | downcase | replace: " ", "-" -%}
+        <a class='{% if clow == selcat %}cat-hl{% endif %}' href='/category/{{ clow }}'>{{ c | capitalize }}</a>
+    {%- endfor -%}
+</div>

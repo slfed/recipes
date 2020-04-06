@@ -1,26 +1,31 @@
 ---
-layout: withrecs
+layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<h3>Yield: {{ page.yield }} </h3>
-{% if page.source %}
-<h3>Source: <a href="{{ page.source }}">click</a></h3>
-{% endif %}
-<h3>Time: {{ page.time }}</h3>
-{% if page.notes %}
-<h3>Notes</h3>
-<p>{{ page.notes }}</p>
-{% endif %}
-<h3>Ingredients</h3>
-<ul>
-    {% for i in page.ingredients %}
-    <li>{{ i }}</li>
-    {% endfor %}
-</ul>
-<h3>Method</h3>
-<ol>
-    {% for m in page.method %}
-    <li>{{ m }}</li>
-    {% endfor %}
-</ol>
+{%- include cat-list.html -%}
+{%- include rec-list.html -%}
+<div class="content {% if page.layout == 'recipe' %}mob-vis{% endif %}">
+    <div class="dummy"></div>
+    <h2>{{ page.title }}</h2>
+    <h3>Yield: {{ page.yield }} </h3>
+    {%- if page.source -%}
+        <h3>Source: <a href="{{ page.source }}">click</a></h3>
+    {%- endif -%}
+    <h3>Time: {{ page.time }}</h3>
+    {%- if page.notes -%}
+        <h3>Notes</h3>
+        <p>{{ page.notes }}</p>
+    {%- endif -%}
+    <h3>Ingredients</h3>
+    <ul>
+        {%- for i in page.ingredients -%}
+            <li>{{ i }}</li>
+        {%- endfor -%}
+    </ul>
+    <h3>Method</h3>
+    <ol>
+        {%- for m in page.method -%}
+            <li>{{ m }}</li>
+        {%- endfor -%}
+    </ol>
+</div>

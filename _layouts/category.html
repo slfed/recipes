@@ -1,6 +1,11 @@
 ---
-layout: withrecs
+layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-{{ page.description }}
+{%- include cat-list.html -%}
+{%- include rec-list.html -%}
+<div class="content">
+    <div class="dummy"></div>
+    <h2>{{ page.title }}</h2>
+    {{- content -}}
+</div>

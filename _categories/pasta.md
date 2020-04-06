@@ -1,5 +1,6 @@
 ---
 title: Pasta
 layout: category
-description: So easy, so good.
 ---
+
+So easy, so good.

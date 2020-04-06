@@ -1,5 +1,6 @@
 ---
 title: Veggie dishes
 layout: category
-description: We mostly eat vegetarian, but some stuff is admittedly more aggressively vegetarian than other stuff.
 ---
+
+We mostly eat vegetarian, but some stuff is admittedly more aggressively vegetarian than other stuff.
