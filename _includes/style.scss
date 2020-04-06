@@ -122,6 +122,13 @@ p {
     }
 }
 
+.content > h2 {
+    text-align: center;
+    @include md {
+        text-align: initial;
+    }
+}
+
 .cat-list > a, .rec-list > a {
     display: block;
     padding: $gen-padding;
@@ -136,8 +143,28 @@ p {
     color: $light-color !important;
 }
 
-.home > a, sub > a {
+.only-mob {
+    @include md {
+        display: none;
+    }
+}
+
+.home a, h2 a {
     color: $light-color !important;
+}
+
+.home > a {
+    display: none;
+    @include md {
+        display: initial;
+    }
+}
+
+.home:after {
+    content: "Boutyrophagoi";
+    @include md {
+        content: initial;
+    }
 }
 
 .content > h2, .content > h3 {

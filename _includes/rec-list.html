@@ -1,11 +1,11 @@
 <div class="rec-list {% if page.layout == 'category' %}mob-vis{% endif %}">
-    <h2>Recipes</h2>
     {%- if page.layout == "recipe" -%}
         {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
         {%- assign selrec = page.title -%}
     {%- else -%}
         {%- assign cat = page.title | downcase | replace: ' ', '-' -%}
     {%- endif -%}
+    <h2><a class="only-mob" style="float:left;text-align:left;" href="/">←</a>Recipes<span class="only-mob">: {{ cat | capitalize }}</span></h2>
     {%- for a in site.recipes -%}
         {%- assign dir = a.path | remove: '_recipes/' | split: '/' | first -%}
         {%- assign alow = a.url -%}
