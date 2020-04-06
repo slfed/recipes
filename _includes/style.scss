@@ -112,10 +112,10 @@ p {
     background-color: #cccccc;
 }
 
-.cat-hl {
-    background-color: #ae93ae;
+.cat-hl, .cat-hl:hover {
+    background-color: #ae93ae !important;
 }
 
-.rec-hl {
-    background-color: #c2a4c2;
+.rec-hl, .rec-hl:hover {
+    background-color: #c2a4c2 !important;
 }

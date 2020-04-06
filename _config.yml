@@ -5,10 +5,10 @@ description              : "This is where we share our recipes!"
 collections:
   recipes:
     output: true
-    permalink: /recipe/:title.html
+    permalink: /r/:slug
   categories:
     output: true
-    permalink: /category/:title.html
+    permalink: /:slug
 
 # Reading Files
 exclude:
