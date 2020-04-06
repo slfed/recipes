@@ -6,15 +6,17 @@ layout: default
 {%- include rec-list.html -%}
 <div class="content {% if page.layout == 'recipe' %}mob-vis{% endif %}">
     <div class="dummy"></div>
-    <h2>{{ page.title }}</h2>
-    <h3>Yield: {{ page.yield }} </h3>
-    {%- if page.source -%}
-        <h3>Source: <a href="{{ page.source }}">click</a></h3>
-    {%- endif -%}
-    <h3>Time: {{ page.time }}</h3>
+    <h2 style="float:left">
+        {{ page.title }}
+        {%- if page.source -%}
+            <sub style="font-size:12px"><a style="text-decoration:underline;"href="{{ page.source }}">source</a></sub>
+        {%- endif -%}
+    </h2>
+    <div style="clear: both;"></div>
+    <p>Yield: {{ page.yield }}</p>
+    <p>Time: {{ page.time }}</p>
     {%- if page.notes -%}
-        <h3>Notes</h3>
-        <p>{{ page.notes }}</p>
+        <p>Notes: {{ page.notes }}</p>
     {%- endif -%}
     <h3>Ingredients</h3>
     <ul>
