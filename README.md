@@ -1,7 +1,7 @@
 # recipes
 Repo for recipes with a simple site to view. Created using markdown files and [Jekyll](https://jekyllrb.com/).
 
-## Instead and serve
+## Install and serve
 ```
 gem install bundler jekyll
 bundle exec jekyll serve
