@@ -8,6 +8,22 @@ bundle exec jekyll serve
 ```
 
 ## Content
+Content files:
+```
+.
+├── index.md                # home page
+├── _categories
+│   ├── bread.md            # a file for each category
+│   └── ...
+├── _recipes
+│   ├── bread               # should match category file exactly
+│   │   ├── pizza.md        # individual recipe
+│   │   └── ...
+│   └── ...
+...
+
+```
+
 To edit the home page, simply edit `index.md`.
 
 To add a new category, you need to create a file with the appropriate name (e.g. `bread.md`) in the `_categories/` directory following the example of the other category files. Front-matter (between the triple dashes `---`) must contain the title, and you must set `layout: category`. Any content below the front-matter will displayed on the page for that category. Then Create a new subdirectory underneath `_recipes` with the same name as the file above, in this case, `bread/`.
