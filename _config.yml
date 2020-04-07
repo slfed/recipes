@@ -1,6 +1,5 @@
 # Site Settings
 title                    : "boutyrophagoi"
-description              : "This is where we share our recipes!"
 baseurl                  : "/recipes"  # because served at ...github.io/recipes
 
 collections:
