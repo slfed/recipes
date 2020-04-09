@@ -1,4 +1,4 @@
-<div class="cat-list {% if page.layout == 'default' %}mob-vis{% endif %}">
+<div class="cat-list {% if page.layout == 'index' %}mob-vis{% endif %}">
     <h2 class="home"><a href="{{ '/' | relative_url }}">Home</a></h2>
     {%- assign cats = site.categories | map: 'slug' -%}
     {%- if page.layout == "recipe" -%}
