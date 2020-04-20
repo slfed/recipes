@@ -1,5 +1,5 @@
 ---
-title: Sweet baking
+title: Baking
 layout: category
 ---
 
