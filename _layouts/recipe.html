@@ -9,17 +9,19 @@ layout: default
     <h2>
         <a class="only-mob" style="float:left;text-align:left;" href="{{ cat | relative_url }}">←</a>
         {{ page.title }}
-        {%- if page.source -%}
-            {%- if page.source contains "http" -%}
-                {%- assign source = page.source -%}
-                {%- assign sourcetext = 'source' -%}
-            {%- else -%}
-                {%- assign sourcetext = "source: " | append: page.source -%}
-            {%- endif -%}
-            <sub><a {% if source -%}href="{{ source }}"{%- endif -%}>{{ sourcetext }}</a></sub>
-        {%- endif -%}
     </h2>
     <div style="clear: both;"></div>
+    {%- if page.source -%}
+        <p>Source: 
+        {%- if page.source contains "http" -%}
+            {%- assign source = page.source -%}
+            {%- assign sourcetext = 'link' -%}
+        {%- else -%}
+            {%- assign sourcetext = page.source -%}
+        {%- endif -%}
+        <a {% if source -%}href="{{ source }}"{%- endif -%}> {{ sourcetext }}</a>
+        </p>
+    {%- endif -%}
     {%- if page.yield -%}
         <p>Yield: {{ page.yield }}</p>
     {%- endif -%}
@@ -28,15 +30,33 @@ layout: default
         <p>Notes: {{ page.notes }}</p>
     {%- endif -%}
     <h3>Ingredients</h3>
-    <ul>
-        {%- for i in page.ingredients -%}
-            <li>{{ i }}</li>
+        {%- for el in page.ingredients -%}
+            {%- if el.first -%}
+                <h4>{{ el[0] }}</h4>
+                <ul>
+                {%- for subel in el offset:1 -%}
+                    <li>{{ subel }}</li>
+                {%- endfor -%}
+                </ul>
+            {%- else -%}
+                <ul>
+                    <li>{{ el }}</li>
+                </ul>
+            {%- endif -%}
         {%- endfor -%}
-    </ul>
     <h3>Method</h3>
-    <ol>
-        {%- for m in page.method -%}
-            <li>{{ m }}</li>
+        {%- for el in page.method -%}
+            {%- if el.first -%}
+                <h4>{{ el[0] }}</h4>
+                <ol>
+                {%- for subel in el offset:1 -%}
+                    <li>{{ subel }}</li>
+                {%- endfor -%}
+                </ol>
+            {%- else -%}
+                <ol>
+                    <li>{{ el }}</li>
+                </ol>
+            {%- endif -%}
         {%- endfor -%}
-    </ol>
 </div>
