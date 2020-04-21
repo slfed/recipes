@@ -17,7 +17,7 @@ ingredients:
 - 2/3 cup granulated sugar
 - 2 tablespoons cinnamon
 - 1 egg plus 2 tablespoons water (lightly beaten together into an egg wash)
-- Garnish: pearl sugar and/or toasted sliced almonds
+- "Garnish: pearl sugar and/or toasted sliced almonds"
 method:
 - Heat milk to a light boil, turning off heat when it reaches the scalding point (when small bubbles appear across the top).
 - Stir in melted butter, sugar, salt, and ground cardamom. Let mixture cool until “finger-warm” (still quite warm, but just cool enough to touch).
