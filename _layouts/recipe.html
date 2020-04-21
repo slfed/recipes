@@ -8,7 +8,7 @@ layout: default
     {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
     <h2>
         <a class="only-mob back-arrow" href="{{ cat | relative_url }}">←</a>
-        {{ page.title }}
+        <span>{{ page.title }}</span>
     </h2>
     <div style="clear: both;"></div>
     {%- if page.source -%}

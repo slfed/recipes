@@ -39,11 +39,10 @@ p {
     margin: 10px 0;
 }
 
-.cat-list {
+.cat-list, .rec-list {
     display: none;
     flex-basis: 100vw;
     min-width: 100vw;
-    background-color: #d6d6d6;
     text-align: center;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -55,40 +54,33 @@ p {
     }
 }
 
+.cat-list {
+    background-color: #d6d6d6;
+}
+
 .rec-list {
-    display: none;
-    flex-basis: 100vw;
-    min-width: 100vw;
     background-color: #eeeeee;
-    text-align: center;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    @include md {
-        text-align: initial;
-        display: initial;
-        flex-basis: $menu-width;
-        min-width: $menu-width;
-    }
 }
 
 .content {
     display: none;
-    padding: 0 $gen-padding;
     overflow-y: auto;
     overflow-x: hidden;
     @include md {
+        padding: 0 $gen-padding;
         display: block;
     }
 }
 
-.content > h2 {
-    @include md {
-    }
-}
 .content.extra-width > h2 {
     @include md {
         width: calc(100vw - (#{$menu-width} + #{$gen-padding}));
     }
+}
+
+.content > p {
+    padding-left: $gen-padding;
+    padding-right: $gen-padding;
 }
 
 .content > * {
@@ -101,6 +93,7 @@ p {
 .content > h2, .content > h3 {
     width: 100vw;
     @include md {
+        margin-left: -$gen-padding;
         width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
     }
 }
@@ -144,9 +137,8 @@ p {
 }
 
 .back-arrow {
-    float: left;
-    text-align: left;
-    //margin-right: -16px;
+    position: absolute;
+    left: 10px;
 }
 
 .home a, h2 a {
@@ -154,8 +146,8 @@ p {
 }
 
 .content > h2, .content > h3 {
-    margin-left: -$gen-padding;
-    padding-bottom: -$gen-padding;
+    //margin-left: -$gen-padding;
+    //padding-bottom: -$gen-padding;
 }
 
 .cat-list > a:hover {
