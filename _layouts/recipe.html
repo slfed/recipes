@@ -7,7 +7,7 @@ layout: default
 <div class="content {% if page.layout == 'recipe' %}mob-vis{% endif %}">
     {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
     <h2>
-        <a class="only-mob" style="float:left;text-align:left;" href="{{ cat | relative_url }}">←</a>
+        <a class="only-mob back-arrow" href="{{ cat | relative_url }}">←</a>
         {{ page.title }}
     </h2>
     <div style="clear: both;"></div>

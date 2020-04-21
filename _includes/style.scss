@@ -39,10 +39,6 @@ p {
     margin: 10px 0;
 }
 
-.mob-vis {
-    display: initial !important;
-}
-
 .cat-list {
     display: none;
     flex-basis: 100vw;
@@ -130,28 +126,31 @@ p {
     color: $light-color !important;
 }
 
+.mob-vis {
+    display: initial !important;
+}
+
 .only-mob {
     @include md {
         display: none;
     }
 }
 
-.home a, h2 a {
-    color: $light-color !important;
-}
-
-.home > a {
+.no-mob {
     display: none;
     @include md {
         display: initial;
     }
 }
 
-.home:after {
-    content: "Boutyrophagoi";
-    @include md {
-        content: initial;
-    }
+.back-arrow {
+    float: left;
+    text-align: left;
+    //margin-right: -16px;
+}
+
+.home a, h2 a {
+    color: $light-color !important;
 }
 
 .content > h2, .content > h3 {

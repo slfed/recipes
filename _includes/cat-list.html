@@ -1,5 +1,8 @@
 <div class="cat-list {% if page.layout == 'index' %}mob-vis{% endif %}">
-    <h2 class="home"><a href="{{ '/' | relative_url }}">Home</a></h2>
+    <h2 class="home">
+        <a class="no-mob" href="{{ '/' | relative_url }}">Home</a>
+        <span class="only-mob">{{ site.title }}</span>
+    </h2>
     {%- assign cats = site.categories | sort: "order" | map: 'slug' -%}
     {%- if page.layout == "recipe" -%}
         {%- assign selcat = page.path | remove: '_recipes/' | split: '/' | first -%}
