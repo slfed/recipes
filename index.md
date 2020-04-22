@@ -11,7 +11,7 @@ It means butter-eaters.
  
 This barely pronounceable word (don’t ask us, we’re not sure either) was used in Ancient Greece, most famously by the Greek poet Anaxandrides, as a marker for northern, butter-eating barbarians. 
 
-I’m not sure whether we qualify as barbarians, but we couldn’t think of a more apropos name for our recipe site than “butter-eaters” – we’re sure you’ll agree, once you’ve had a closer look.
+I’m not sure whether we qualify as barbarians, but we couldn’t think of a better name for our recipe site – we think you’ll agree, once you’ve had a closer look.
 
 We set up this space in order to keep (and share) recipes that we love: whether we create them ourselves, find them on the internet, or they are passed down to us by people we love. 
 
