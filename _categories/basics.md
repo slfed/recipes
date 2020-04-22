@@ -4,4 +4,4 @@ layout: category
 order: 0
 ---
 
-Just useful recipes that could come in handy.
+For if you mess up your rice every time, or fancy a spot of pickles. The basics are both fundamentals, and just useful recipes that could come in handy. 
