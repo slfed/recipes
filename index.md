@@ -21,5 +21,5 @@ The food we eat tells stories about who we are, where we come from, and how we l
 This site is in beta, as are the recipes! Please have patience with us as we keep working on filling it up and making it great. And if you have something to add, let us know! 
  
  
-P.S. It’s “bouty” for sure… where do you think all that butter ends up?!
+P.S. It’s “bouty” for short… where do you think all that butter ends up?!
 
