@@ -21,5 +21,5 @@ method:
 - Preheat oven to 210 C.
 - Working quickly, score the loaves, spray/brush tops with warm water and place in oven.
 - Bake for 25 - 30 minutes.
-- Optional: For extra colour, brush tops with olive oil 5 minutes before end of bake.
+- "Optional: For extra colour, brush tops with olive oil 5 minutes before end of bake."
 ---
