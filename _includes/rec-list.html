@@ -8,7 +8,7 @@
     <h2>
         <a class="only-mob back-arrow" href="{{ '/' | relative_url }}">←</a>
         <span class="no-mob">Recipes</span>
-        <span class="only-mob">{{ page.title }}</span>
+        <span class="only-mob title-center">{{ page.title }}</span>
     </h2>
     {%- for a in site.recipes -%}
         {%- assign dir = a.path | remove: '_recipes/' | split: '/' | first -%}
