@@ -13,15 +13,16 @@ $light-color: #f6f4f6;
 }
 
 body {
+    max-width: 100%;
     font-family: $sans-serif;
     color: $text-color;
-    display: flex;
-    flex-direction: row;
     margin: 0;
-    height: 100vh;
     background-color: $background-color;
-    overflow: visible;
+    overflow: initial;
     @include md {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
         overflow: hidden;
     }
 }
@@ -41,12 +42,12 @@ p {
 
 .cat-list, .rec-list {
     display: none;
-    flex-basis: 100vw;
-    min-width: 100vw;
     text-align: center;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     @include md {
+        flex-basis: 100vw;
+        min-width: 100vw;
         text-align: initial;
         display: initial;
         flex-basis: $menu-width;
@@ -80,28 +81,21 @@ p {
 
 .content > p {
     padding-left: $gen-padding;
-    padding-right: $gen-padding;
 }
 
 .content > * {
-    max-width: 100vw;
+    padding-right: $gen-padding;
     @include md {
         width: 40vw;
     }
 }
 
-.content > h2, .content > h3 {
-    width: 100vw;
-    @include md {
-        margin-left: -$gen-padding;
-        width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
-    }
-}
-
-.content > h2 {
+.content > h2, .content > h3, .content > h4 {
     text-align: center;
     @include md {
         text-align: initial;
+        margin-left: -$gen-padding;
+        width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
     }
 }
 
@@ -146,13 +140,8 @@ p {
     margin-right: 20px;
 }
 
-.home a, h2 a {
+.home a {
     color: $light-color !important;
-}
-
-.content > h2, .content > h3 {
-    //margin-left: -$gen-padding;
-    //padding-bottom: -$gen-padding;
 }
 
 .cat-list > a:hover {
@@ -169,15 +158,4 @@ p {
 
 .rec-hl, .rec-hl:hover {
     background-color: #c2a4c2 !important;
-}
-
-sup, sub {
-  vertical-align: baseline;
-  position: relative;
-  top: -0.4em;
-}
-
-sub {
-  top: 0.4em;
-  font-size: 12px;
 }
