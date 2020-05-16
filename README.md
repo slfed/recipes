@@ -77,3 +77,7 @@ All layout and style is contained in the following files:
 
 ## Configuration
 The Jekyll configuration is in `_config.yml`.
+
+## Cname
+
+[link](https://anmonteiro.com/2015/08/custom-subdomains-in-github-project-pages/)
