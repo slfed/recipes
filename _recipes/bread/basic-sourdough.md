@@ -21,5 +21,4 @@ method:
 - Let dough sit out while oven heats up to 260, about 45 mins later. Do the finger indent test!
 - Score, Spray/brush tops with warm water and place in oven
 - Lower oven to 230c and bake in Dutch oven with lid for 20 mins. Then lid off for 30 mins.
-
 ---
