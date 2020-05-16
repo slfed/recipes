@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Basic sourdough
+title: Artisan sourdough
 source: [abeautifulplate](https://www.abeautifulplate.com/artisan-sourdough-bread-recipe/)
 yield: 1 large loaf
 time: 2 days
@@ -12,7 +12,7 @@ ingredients:
 - 90 grams ripe sourdough starter (100% hydration) 
 - 9 grams kosher salt or fine sea salt 
 method:
-- DAY ONE:
+- Day 1
 - 8:30 AM – autolyse (mix flours and water). allow mixture to rest, covered, at 26°C for 1 hour, or as long as 2 hours. 
 - 9:30 AM – add mature sourdough starter, mix thoroughly. cover and rest at 26°C for 30 minutes.
 - 10:00 AM – add salt and mix thoroughly. cover and rest at 26°C for 15 minutes.
@@ -22,7 +22,7 @@ method:
 - 2:15/3:15 PM – pre-shape. leave uncovered at room temperature for 20 minutes.
 - 2:35/3:35 PM – final shape. transfer to rice floured banneton basket, cover with a plastic bag, and seal. allow to rest at room - temperature for 10 minutes before transferring to the fridge.
 - 3:45 PM – 7:45 AM  – retard dough (final proof) in refrigerator at 3°C for 16-17 hours. 
-- DAY TWO: 
+- Day 2
 - 6:45 AM – preheat Challenger Pan, Dutch Oven, or combo cooker in 260°C oven for at least 1 hour. 
 - 7:45 AM – remove dough from the fridge, transfer to preheated pan, score, and bake at 260°C with the lid on for 25 - minutes. 
 - 8:10 AM – remove pan lid, reduce oven temperature to 245°C and bake uncovered for about 20 minutes or until deeply - caramelized. allow loaf to cool completely – this will take several hours – before slicing and serving.
