@@ -4,4 +4,11 @@ layout: category
 order: 11
 ---
 
-We love making bread! No really, we <b> <i> love </i> </b> it. From babka, to deep and luscious rye, to everyday rolls and loaves, we are a little o b s e s s e d. After all, we need a proper vehicle for all that butter.
+Useful goes here
+
+## Calcs
+[brdclc](http://brdclc.com/?flour=440&water=75&salt=2&leaven=20.5)
+
+## Bit of science
+[simple intro](https://breadtopia.com/demystifying-sourdough-bread-baking/)
+[starter faq](https://www.abeautifulplate.com/sourdough-starter-troubleshooting-guide/)
