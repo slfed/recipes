@@ -1,6 +1,6 @@
 <div class="cat-list {% if page.layout == 'index' %}mob-vis{% endif %}">
-    <h2 class="home">
-        <a class="no-mob" href="{{ '/' | relative_url }}">Home</a>
+    <h2>
+        <a class="no-mob" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         <span class="only-mob">{{ site.title }}</span>
     </h2>
     {%- assign cats = site.categories | sort: "order" -%}
@@ -10,6 +10,6 @@
         {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
     {%- endif -%}
     {%- for c in cats -%}
-        <a {% if c.slug == selcat %}class='cat-hl'{%- endif %} href='{{ c.slug | relative_url }}'>{{ c.title }}</a>
+        <a {% if c.slug == selcat %}class='highlight'{%- endif %} href='{{ c.slug | relative_url }}'>{{ c.title }}</a>
     {%- endfor -%}
 </div>

@@ -1,10 +1,9 @@
 $menu-width: 14rem;
 $gen-padding: 12px;
 $sans-serif: Carlito, Calibri, sans-serif;
-$gray: #7a8288;
-$background-color: #F6F6F6;
-$text-color: mix(black, $gray, 40%);
-$light-color: #f6f4f6;
+$background-color: #F9F3ED;
+$hover-color: #e6ded5;
+$text-color: #494a4a;
 
 @mixin md {
     @media (min-width: #{768px}) {
@@ -40,10 +39,16 @@ p {
     margin: 10px 0;
 }
 
-.cat-list, .rec-list {
+a:hover,
+.highlight {
+    background-color: $hover-color;
+}
+
+.cat-list,
+.rec-list {
     display: none;
     text-align: center;
-    overflow-y: auto;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     @include md {
         flex-basis: 100vw;
@@ -53,14 +58,6 @@ p {
         flex-basis: $menu-width;
         min-width: $menu-width;
     }
-}
-
-.cat-list {
-    background-color: #d6d6d6;
-}
-
-.rec-list {
-    background-color: #eeeeee;
 }
 
 .content {
@@ -90,7 +87,9 @@ p {
     }
 }
 
-.content > h2, .content > h3, .content > h4 {
+.content > h2,
+.content > h3,
+.content > h4 {
     text-align: center;
     @include md {
         text-align: initial;
@@ -99,18 +98,20 @@ p {
     }
 }
 
-.cat-list > a, .rec-list > a {
-    display: block;
-    padding: $gen-padding;
-    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.2);
+.title-center {
+    margin-left: 16px;
+    margin-right: 20px;
 }
 
-.home, .rec-list > h2, .content > h2, .content > h3 {
+.cat-list > a,
+.rec-list > a,
+.cat-list > h2,
+.rec-list > h2,
+.content > h2,
+.content > h3 {
     display: block;
     padding: $gen-padding;
     margin-top: 0px;
-    background-color: #93ae93;
-    color: $light-color !important;
 }
 
 .mob-vis {
@@ -135,27 +136,3 @@ p {
     left: 10px;
 }
 
-.title-center {
-    margin-left: 16px;
-    margin-right: 20px;
-}
-
-.home a {
-    color: $light-color !important;
-}
-
-.cat-list > a:hover {
-    background-color: #b7b7b7;
-}
-
-.rec-list > a:hover {
-    background-color: #cccccc;
-}
-
-.cat-hl, .cat-hl:hover {
-    background-color: #ae93ae !important;
-}
-
-.rec-hl, .rec-hl:hover {
-    background-color: #c2a4c2 !important;
-}

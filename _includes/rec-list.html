@@ -14,7 +14,7 @@
         {%- assign dir = a.path | remove: '_recipes/' | split: '/' | first -%}
         {%- assign alow = a.url -%}
         {%- if dir == cat -%}
-            <a {% if a.title == selrec -%}class='rec-hl'{%- endif %} {% unless a.title == selrec -%}href='{{ a.url | relative_url }}'{%- endunless -%}>{{ a.title }}</a>
+            <a {% if a.title == selrec -%}class='highlight'{%- endif %} {% unless a.title == selrec -%}href='{{ a.url | relative_url }}'{%- endunless -%}>{{ a.title }}</a>
         {%- endif -%}
     {%- endfor -%}
 </div>
