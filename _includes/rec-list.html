@@ -6,10 +6,7 @@
 {%- endif -%}
 <div class="list {% if page.layout == 'category' %}force-disp{% endif %}">
     <span class="head">
-        <span class="hide-md">
-            <a class="back-arrow" href="{{ '/' | relative_url }}">←</a>
-            {{ page.title }}
-        </span>
+        <span class="hide-md">{{ page.title }}</span>
         <span class="hide-mob">&nbsp;</span>
     </span>
     {%- for a in site.recipes -%}
