@@ -4,12 +4,12 @@ layout: default
 
 {%- include cat-list.html -%}
 {%- include rec-list.html -%}
-<div class="content {% if page.layout == 'recipe' %}mob-vis{% endif %}">
+<div class="content {% if page.layout == 'recipe' %}force-disp{% endif %}">
     {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
-    <h2>
-        <a class="only-mob back-arrow" href="{{ cat | relative_url }}">←</a>
-        <span class="title-center">{{ page.title }}</span>
-    </h2>
+    <h1 class="head">
+        <a class="hide-md back-arrow" href="{{ cat | relative_url }}">←</a>
+        {{ page.title }}
+    </h1>
     <div style="clear: both;"></div>
     {%- if page.source -%}
         <p>Source: 
@@ -29,7 +29,7 @@ layout: default
     {%- if page.notes -%}
         <p>Notes: {{ page.notes }}</p>
     {%- endif -%}
-    <h3>Ingredients</h3>
+    <h2>Ingredients</h2>
         {%- for el in page.ingredients -%}
             {%- if el.first -%}
                 {%- assign nested = "true" -%}
@@ -37,7 +37,7 @@ layout: default
         {%- endfor -%}
         {%- if nested == "true" -%}
             {%- for el in page.ingredients -%}
-                <h4>{{ el[0] }}</h4>
+                <h3>{{ el[0] }}</h3>
                 <ul>
                 {%- for subel in el[1] -%}
                     <li>{{ subel }}</li>
@@ -51,7 +51,7 @@ layout: default
             {%- endfor -%}
             </ul>
         {%- endif -%}
-    <h3>Method</h3>
+    <h2>Method</h2>
         {%- for el in page.method -%}
             {%- if el.first -%}
                 {%- assign nested2 = "true" -%}
@@ -59,7 +59,7 @@ layout: default
         {%- endfor -%}
         {%- if nested2 == "true" -%}
             {%- for el in page.method -%}
-                <h4>{{ el[0] }}</h4>
+                <h3>{{ el[0] }}</h3>
                 <ol>
                 {%- for subel in el[1] -%}
                     <li>{{ subel }}</li>

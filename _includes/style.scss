@@ -1,7 +1,7 @@
 $menu-width: 14rem;
-$gen-padding: 12px;
-$sans-serif: Carlito, Calibri, sans-serif;
-$background-color: #F9F3ED;
+$padding: 12px;
+$font: Carlito, Calibri, font;
+$bg-color: #F9F3ED;
 $hover-color: #e6ded5;
 $text-color: #494a4a;
 
@@ -13,10 +13,10 @@ $text-color: #494a4a;
 
 body {
     max-width: 100%;
-    font-family: $sans-serif;
+    font-family: $font;
     color: $text-color;
     margin: 0;
-    background-color: $background-color;
+    background-color: $bg-color;
     overflow: initial;
     @include md {
         height: 100vh;
@@ -32,11 +32,8 @@ a {
 }
 
 p {
-    margin: 0;
-}
-
-.extra-width p {
     margin: 10px 0;
+    padding-left: $padding;
 }
 
 a:hover,
@@ -44,8 +41,41 @@ a:hover,
     background-color: $hover-color;
 }
 
-.cat-list,
-.rec-list {
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 120%;
+    margin-bottom: -14px;
+}
+
+h3 {
+    font-size: 100%;
+    margin-bottom: -14px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    display: block;
+    padding: $padding;
+    margin-top: 0px;
+    @include md {
+        text-align: initial;
+        width: calc(120vw - 2*(#{$menu-width} + #{$padding}));
+    }
+}
+
+.head {
+    font-size: 150%;
+    font-weight: bold;
+    margin: 0 16px;
+    @include md {
+        margin: initial;
+    }
+}
+
+.list {
     display: none;
     text-align: center;
     overflow-y: scroll;
@@ -60,78 +90,50 @@ a:hover,
     }
 }
 
+.list > * {
+    display: block;
+    padding: $padding;
+    margin-top: 0px;
+}
+
 .content {
     display: none;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
     @include md {
-        padding: 0 $gen-padding;
+        padding: 0 $padding;
         display: block;
     }
 }
 
-.content.extra-width > h2 {
-    @include md {
-        width: calc(100vw - (#{$menu-width} + #{$gen-padding}));
-    }
-}
-
+.content > ol,
+.content > ul,
 .content > p {
-    padding-left: $gen-padding;
-}
-
-.content > * {
-    padding-right: $gen-padding;
+    padding-right: $padding;
     @include md {
         width: 40vw;
     }
-}
-
-.content > h2,
-.content > h3,
-.content > h4 {
-    text-align: center;
-    @include md {
-        text-align: initial;
-        margin-left: -$gen-padding;
-        width: calc(100vw - 2*(#{$menu-width} + #{$gen-padding}));
-    }
-}
-
-.title-center {
-    margin-left: 16px;
-    margin-right: 20px;
-}
-
-.cat-list > a,
-.rec-list > a,
-.cat-list > h2,
-.rec-list > h2,
-.content > h2,
-.content > h3 {
-    display: block;
-    padding: $gen-padding;
-    margin-top: 0px;
 }
 
 ol > li {
     margin: 8px 0;
 }
 
-.mob-vis {
+.force-disp {
     display: initial !important;
 }
 
-.only-mob {
-    @include md {
-        display: none;
-    }
-}
-
-.no-mob {
+.hide-mob {
     display: none;
     @include md {
         display: initial;
+    }
+}
+
+.hide-md {
+    display: initial;
+    @include md {
+        display: none;
     }
 }
 

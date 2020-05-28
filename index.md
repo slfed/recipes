@@ -1,6 +1,5 @@
 ---
 layout: index
-title: Welcome to Boutyrophagoi
 ---
 
 Boutyrophagoi is a bit of a weird name for a website. 
