@@ -5,7 +5,9 @@ source: https://www.thespruceeats.com/cinnamon-rolls-kanelbullar-2952709
 yield: 40!
 time: 2 hours 30 minutes
 notes: The juicier the better, some would say.
-ingredients:
+---
+
+## Ingredients
 - 2 1/2 cups milk
 - 1 1/2 cups butter (melted)
 - 1 cup granulated sugar
@@ -18,7 +20,8 @@ ingredients:
 - 2 tablespoons cinnamon
 - 1 egg plus 2 tablespoons water (lightly beaten together into an egg wash)
 - "Garnish: pearl sugar and/or toasted sliced almonds"
-method:
+
+## Method
 - Heat milk to a light boil, turning off heat when it reaches the scalding point (when small bubbles appear across the top).
 - Stir in melted butter, sugar, salt, and ground cardamom. Let mixture cool until “finger-warm” (still quite warm, but just cool enough to touch).
 - Stir in yeast and let sit for 10 minutes.
@@ -32,4 +35,3 @@ method:
 - Preheat oven to 425 F.
 - Brush risen cinnamon rolls with egg wash and sprinkle with pearl sugar and/or almonds.
 - Place in the middle of the oven and bake for 7 minutes, or until golden and firm.
----

@@ -5,7 +5,9 @@ source: https://www.curiouscuisiniere.com/lussekatter-saffron-buns/
 yield: 24 buns
 time: 3 hours
 notes: These are so good!
-ingredients:
+---
+
+## Ingredients
 - ½ tsp saffron threads
 - 2 Tbsp milk
 - ½ c raisins
@@ -18,7 +20,8 @@ ingredients:
 - 6 - 6 ½ c unbleached all purpose flour
 - 1 egg
 - 2 Tbsp water
-method:
+
+## Method
 - Place the saffron threads in a small bowl and carefully grind them into a fine powder using the back of a spoon (or use a mortar and pestle). Add 2 Tbsp of milk and set the mixture aside for an hour or two, stirring occasionally, to let the saffron dye the milk.
 - Place the raisins in a small bowl and cover with warm water. Set them aside to plump.
 - Place the warmed milk in a large mixing bowl. Mix in a few Tbsp of the sugar. Sprinkle the yeast over top of the milk and let it stand until the yeast has softened and begins to foam, 5-10 min.
@@ -30,4 +33,3 @@ method:
 - Beat together the egg and water for your egg wash. Brush the mixture on the buns.
 - Let the buns rise in a warm, draft free place for 20-30 minutes, or until the buns are puffy and have nearly doubled in size.
 - Near the end of this last rising time, preheat your oven to 425F. Bake the buns for 8-10 min minutes, until golden. Remove the buns from the oven and let them cool on a wire rack for 5 minutes before enjoying the warm rolls!
----

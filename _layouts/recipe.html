@@ -26,48 +26,6 @@ layout: default
     {%- if page.notes -%}
         <p>Notes: {{ page.notes }}</p>
     {%- endif -%}
-    <h2>Ingredients</h2>
-        {%- for el in page.ingredients -%}
-            {%- if el.first -%}
-                {%- assign nested = "true" -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {%- if nested == "true" -%}
-            {%- for el in page.ingredients -%}
-                <h3>{{ el[0] }}</h3>
-                <ul>
-                {%- for subel in el[1] -%}
-                    <li>{{ subel }}</li>
-                {%- endfor -%}
-                </ul>
-            {%- endfor -%}
-        {%- else -%}
-            <ul>
-            {%- for el in page.ingredients -%}
-                <li>{{ el }}</li>
-            {%- endfor -%}
-            </ul>
-        {%- endif -%}
-    <h2>Method</h2>
-        {%- for el in page.method -%}
-            {%- if el.first -%}
-                {%- assign nested2 = "true" -%}
-            {%- endif -%}
-        {%- endfor -%}
-        {%- if nested2 == "true" -%}
-            {%- for el in page.method -%}
-                <h3>{{ el[0] }}</h3>
-                <ol>
-                {%- for subel in el[1] -%}
-                    <li>{{ subel }}</li>
-                {%- endfor -%}
-                </ol>
-            {%- endfor -%}
-        {%- else -%}
-            <ol>
-            {%- for el in page.method -%}
-                <li>{{ el }}</li>
-            {%- endfor -%}
-            </ol>
-        {%- endif -%}
+
+    {{ content }}
 </div>

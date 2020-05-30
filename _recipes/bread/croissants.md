@@ -5,7 +5,9 @@ source: https://www.telegraph.co.uk/journalists/paul-hollywood/10801243/Paul-Hol
 yield: 12 croissants
 time: overnight
 notes: Keep it coooold!
-ingredients:
+---
+
+## Ingredients
 - 500g strong flour
 - 10g salt
 - 80g caster sugar
@@ -13,7 +15,8 @@ ingredients:
 - 300ml cool water
 - 300g chilled butter
 - 1 egg
-method:
+
+## Method
 - Put the flour into the bowl of a mixer fitted with a dough hook. Add the salt and sugar to one side of the bowl and the yeast to the other. Add the water and mix on a slow speed for two minutes, then on a medium speed for six minutes. The dough should be fairly stiff.
 - Tip the dough out onto a lightly floured surface and shape it into a ball. Dust with flour, put into a clean plastic bag and chill in the fridge for an hour.
 - On a lightly floured surface, roll out your dough to a rectangle, about 60 x  20cm; it should be about 1cm thick. Flatten the butter to a rectangle, about 40 x 19cm, by bashing it with a rolling pin. Put the butter on the dough so that it covers the bottom two-thirds of the dough. Make sure it is positioned neatly and comes almost to the edges.
@@ -29,4 +32,3 @@ method:
 - Put the croissants on the baking trays, leaving space in between for them to expand; allow four-six per tray. Put each tray inside a clean plastic bag and leave the croissants to rise at cool room temperature (18–24C) until at least doubled in size. This should take about two hours.
 - Heat your oven to 200C.
 - Lightly whisk the egg with a pinch of salt to make an egg wash. Brush the top and sides of the croissants with the egg wash. Bake for 15–20 minutes or until golden brown. Cool on a wire rack. Eat warm. 
----

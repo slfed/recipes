@@ -5,7 +5,9 @@ source: https://www.yummly.com/recipe/Pretzel-Bread-9090293
 yield: 2 small loaves
 time: 2 hours
 notes: 
-ingredients:
+---
+
+## Ingredients
 - 1 packet (2 1/4 tsps) active dry yeast
 - 1 cup warm water (110 – 120 degrees)
 - 2 Tbsp. milk, room temperature
@@ -17,7 +19,8 @@ ingredients:
 - 1/2 cup baking soda
 - Coarse salt to taste
 - 2 Tbsps. melted butter
-method:
+
+## Method
 - In the bowl of a stand mixer or in a large bowl, combine the yeast, water, milk, brown sugar, and butter.  Let the mixture rest for 10 minutes so the yeast come alive.
 - Mix in the coarse salt, then the flour, one cup at a time.  The dough will be tacky.
 - Spray a large bowl with cooking spray or coat with oil.  Transfer the dough to the bowl, flip to coat on both sides, and cover with plastic wrap for 30 minutes.
@@ -28,4 +31,3 @@ method:
 - Bake for 20-25 minutes, rotating the sheet halfway through.
 - Remove from the oven and brush with melted butter.
 - Enjoy like nobody is watching, meaning it’s okay to eat a whole loaf in one sitting.  You won’t be able to help it…
----
