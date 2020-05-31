@@ -5,6 +5,7 @@ source: The Gefilte Manifesto by Jeffrey Yoskowitz and Liz Alpern
 yield: 1 loaf
 time: 3-5 hours
 notes: 
+image: challah.jpg
 ---
 
 ## Ingredients

@@ -5,6 +5,7 @@ source: https://www.theperfectloaf.com/sourdough-babka/
 yield: 
 time: 
 notes: 
+image: babka.jpg
 ---
 
 ## Ingredients

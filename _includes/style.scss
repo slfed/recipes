@@ -128,6 +128,7 @@ h1, h2, h3 {
 }
 
 img {
+    image-orientation: from-image;
     width: 90vw;
     padding: 1em;
     @include md {

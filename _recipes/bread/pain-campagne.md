@@ -5,6 +5,7 @@ source: https://www.karenskitchenstories.com/2015/01/pain-de-campagne-batard.htm
 yield: 
 time: 
 notes: 
+image: pain-de-campagne.jpg
 ---
 
 ## Ingredients

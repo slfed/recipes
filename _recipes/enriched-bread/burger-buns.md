@@ -5,6 +5,7 @@ source: https://www.allrecipes.com/recipe/237066/grandma-ritas-soft-butter-rolls
 yield: 18 rolls
 time: 2 hours
 notes: Pack them close for the second prove so they nearly join in the rise.
+image: buns.jpg
 ---
 
 ## Ingredients

@@ -5,6 +5,7 @@ source: https://www.thespruceeats.com/cinnamon-rolls-kanelbullar-2952709
 yield: 40!
 time: 2 hours 30 minutes
 notes: The juicier the better, some would say.
+image: kanelbullar.jpg
 ---
 
 ## Ingredients

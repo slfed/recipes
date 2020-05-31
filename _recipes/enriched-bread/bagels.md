@@ -5,6 +5,7 @@ source: The Gefilte Manifesto by Jeffrey Yoskowitz and Liz Alpern
 yield: 10 bagels
 time: 3 hours to overnight
 notes: 
+image: bagels.jpg
 ---
 
 ## Ingredients

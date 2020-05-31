@@ -5,6 +5,7 @@ source: https://www.curiouscuisiniere.com/lussekatter-saffron-buns/
 yield: 24 buns
 time: 3 hours
 notes: These are so good!
+image: lussekatter.jpg
 ---
 
 ## Ingredients
