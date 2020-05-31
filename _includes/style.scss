@@ -87,6 +87,10 @@ h1, h2, h3 {
 .head {
     font-size: 150%;
     font-weight: bold;
+    margin: 0 16px;
+    @include md {
+        margin: initial;
+    }
 }
 
 .list {
@@ -144,3 +148,9 @@ img {
     list-style-type: decimal;
     margin: 8px 0;
 }
+
+.back-arrow {
+    position: absolute;
+    left: 10px;
+}
+
