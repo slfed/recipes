@@ -66,6 +66,24 @@ h1, h2, h3 {
     }
 }
 
+.force-disp {
+    display: initial !important;
+}
+
+.hide-mob {
+    display: none;
+    @include md {
+        display: initial;
+    }
+}
+
+.hide-md {
+    display: initial;
+    @include md {
+        display: none;
+    }
+}
+
 .head {
     font-size: 150%;
     font-weight: bold;
@@ -77,10 +95,8 @@ h1, h2, h3 {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     @include md {
-        flex-basis: 100vw;
-        min-width: 100vw;
-        text-align: initial;
         display: initial;
+        text-align: initial;
         flex-basis: $menu-width;
         min-width: $menu-width;
     }
@@ -111,29 +127,19 @@ h1, h2, h3 {
     }
 }
 
-#ingredients ~ ul > li {
+img {
+    width: 100vw;
+    padding: 1em;
+    @include md {
+        width: 30vw;
+    }
+}
+
+#ingredients ~ * > li {
     list-style-type: disc;
 }
 
-#method ~ ul > li {
+#method ~ * > li {
     list-style-type: decimal;
     margin: 8px 0;
-}
-
-.force-disp {
-    display: initial !important;
-}
-
-.hide-mob {
-    display: none;
-    @include md {
-        display: initial;
-    }
-}
-
-.hide-md {
-    display: initial;
-    @include md {
-        display: none;
-    }
 }

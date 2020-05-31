@@ -7,7 +7,6 @@ layout: default
 <div class="content {% if page.layout == 'recipe' %}force-disp{% endif %}">
     {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
     <h1>{{ page.title }}</h1>
-    <div style="clear: both;"></div>
     {%- if page.source -%}
         <p>Source: 
         {%- if page.source contains "http" -%}
@@ -19,13 +18,20 @@ layout: default
         <a {% if source -%}href="{{ source }}"{%- endif -%}> {{ sourcetext }}</a>
         </p>
     {%- endif -%}
+
     {%- if page.yield -%}
         <p>Yield: {{ page.yield }}</p>
     {%- endif -%}
+
     <p>Time: {{ page.time }}</p>
+
     {%- if page.notes -%}
         <p>Notes: {{ page.notes }}</p>
     {%- endif -%}
 
     {{ content }}
+
+    {%- if page.image -%}
+        <img src="/images/{{ page.image }}" alt="recipe-photo" class="">
+    {%- endif -%}
 </div>
