@@ -5,8 +5,11 @@ source:
 yield: 
 time: 
 notes: 
-ingredients:
-- 
-method:
-- 
+image: 
 ---
+
+## Ingredients
+- 
+
+## Method
+- 
