@@ -36,7 +36,6 @@ layout: default
 
     {{ content }}
 
-    {%- if page.image -%}
-        <img src="/images/{{ page.image }}" alt="recipe-photo" class="">
-    {%- endif -%}
+    {% assign img = "/images/" | append: page.slug | append: ".jpg" %}
+    <img src="{{ img }}" alt="recipe-photo" class="">
 </div>
