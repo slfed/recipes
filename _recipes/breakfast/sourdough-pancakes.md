@@ -5,7 +5,6 @@ source: https://www.tastesoflizzyt.com/sourdough-pancakes/
 yield: 6 or so
 time: 20 minutes
 notes: Worth chilling the batter in the fridge for a bit before using.
-image: 
 ---
 
 ## Ingredients

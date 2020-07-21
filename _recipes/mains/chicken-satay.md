@@ -5,7 +5,6 @@ source: https://www.bbcgoodfood.com/recipe/cheeky-chicken-satay
 yield: 3-4 chunky satays
 time: 40 min
 notes: Serve with rice
-image: 
 ---
 
 ## Ingredients

@@ -5,7 +5,6 @@ source: https://www.rockrecipes.com/homemade-philly-cheesesteak/
 yield: 
 time: 
 notes: 
-image: 
 ---
 
 ## Ingredients

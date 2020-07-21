@@ -51,7 +51,6 @@ source:
 yield: 4 pizzas
 time: 40 minutes
 notes:
-image: 
 ---
 
 ## Ingredients
@@ -66,6 +65,11 @@ image:
 ### Cooking
 - Bake at 250 C.
 ```
+
+## Images
+Images should be placed in `/images/` with the exact same name as the recipe except with `.jpg` as the suffix, instead of `.md`.
+
+Example: `bagels.md` needs **exactly** `/images/bagels.jpg`. Anything else will not work.
 
 ## Layouts
 All layout and style is contained in the following files:

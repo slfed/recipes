@@ -5,7 +5,6 @@ source:
 yield: 1 large or 2 small loaves
 time: most of a day
 notes: 
-image: basic-sourdough.jpg
 ---
 
 ## Ingredients

@@ -5,7 +5,6 @@ source:
 yield: 4 medium pies
 time: 1 hour
 notes: 
-image: spanakopita.jpg
 ---
 
 ## Ingredients

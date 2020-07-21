@@ -5,7 +5,6 @@ source:
 yield: 
 time: 30 minutes
 notes: 
-image: fish-bao.jpg
 ---
 
 ## Ingredients

@@ -5,7 +5,6 @@ source:
 yield: 1 medium-sized loaf
 time: 1 day
 notes: "To do with yeast: add ½ cup each of flour and water to the recipe. Start with the yeast, water and 1 cup flour and leave to sponge for 20 minutes. From there follow the same recipe, except the rising times will be much shorter (and the first can even be skipped)."
-image: gov-bread.jpg
 ---
 
 ## Ingredients

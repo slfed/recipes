@@ -5,7 +5,6 @@ source: https://www.bbcgoodfood.com/recipes/hot-cross-buns
 yield: 7 buns
 time: 3 hours
 notes: 
-image: hot-cross-buns.jpg
 ---
 
 ## Ingredients

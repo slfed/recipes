@@ -5,7 +5,6 @@ source: https://www.telegraph.co.uk/journalists/paul-hollywood/10801243/Paul-Hol
 yield: 12 croissants
 time: overnight
 notes: Keep it coooold!
-image: croissants.jpg
 ---
 
 ## Ingredients

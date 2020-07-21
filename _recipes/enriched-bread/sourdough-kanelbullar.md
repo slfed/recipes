@@ -5,7 +5,6 @@ source: https://www.kingarthurflour.com/blog/2019/12/02/sourdough-cinnamon-buns
 yield: 
 time: 
 notes: 
-image: sourdough-kanelbullar.jpg
 ---
 
 ## Ingredients

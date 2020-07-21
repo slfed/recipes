@@ -37,5 +37,5 @@ layout: default
     {{ content }}
 
     {% assign img = "/images/" | append: page.slug | append: ".jpg" %}
-    <img src="{{ img }}" alt="recipe-photo" class="">
+    <img src="{{ img }}" alt="recipe-photo" onerror="this.style.display='none'">
 </div>

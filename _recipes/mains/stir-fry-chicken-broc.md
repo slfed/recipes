@@ -5,7 +5,6 @@ source: https://www.simplywhisked.com/chinese-chicken-and-broccoli/
 yield:
 time: 20 minutes
 notes:
-image: stir-fry-chicken-broc.jpg
 ---
 
 ## Ingredients

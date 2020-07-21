@@ -1,7 +1,7 @@
 ---
 layout: recipe
-title: Sourdough babka
-source: https://www.theperfectloaf.com/sourdough-babka/
+title: Focaccia
+source: 
 yield: 
 time: 
 notes: 
