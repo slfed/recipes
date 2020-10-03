@@ -1,0 +1,44 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'images'
+collections:
+  - name: 'recipes'
+    label: 'Recipes'
+    folder: '_recipes/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'recipe' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Category', name: 'categories', widget: 'string' }
+      - { label: 'Source', name: 'source', widget: 'string', required: false }
+      - { label: 'Yield', name: 'yield', widget: 'string', required: false }
+      - { label: 'Time', name: 'time', widget: 'string', required: false }
+      - { label: 'Notes', name: 'notes', widget: 'string', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+  - name: 'categories'
+    label: 'Categories'
+    folder: '_categories'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'category' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Order', name: 'order', widget: 'number' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: "index"
+        file: "index.md"
+        fields:
+          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'index' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
