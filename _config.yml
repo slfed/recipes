@@ -4,7 +4,7 @@ title                    : "boutyrophagoi"
 collections:
   recipes:
     output: true
-    permalink: /r/:slug
+    permalink: /:categories/:slug
   categories:
     output: true
     permalink: /:slug

@@ -5,7 +5,7 @@ layout: default
 {%- include cat-list.html -%}
 {%- include rec-list.html -%}
 <div class="content {% if page.layout == 'recipe' %}force-disp{% endif %}">
-    {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
+    {%- assign cat = page.cat -%}
     <h1 class="head">
         <a class="hide-md back-arrow" href="{{ cat | relative_url }}">&lt;</a>
         {{ page.title }}
@@ -13,7 +13,7 @@ layout: default
     <div style="clear: both;"></div>
 
     {%- if page.source -%}
-        <p>Source: 
+        <p>Source:
         {%- if page.source contains "http" -%}
             {%- assign source = page.source -%}
             {%- assign sourcetext = 'link' -%}

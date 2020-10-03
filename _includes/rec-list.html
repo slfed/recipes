@@ -1,5 +1,5 @@
 {%- if page.layout == "recipe" -%}
-    {%- assign cat = page.path | remove: '_recipes/' | split: '/' | first -%}
+    {%- assign cat = page.categories | first -%}
     {%- assign selrec = page.title -%}
 {%- else -%}
     {%- assign cat = page.slug | downcase | replace: ' ', '-' -%}
@@ -13,7 +13,7 @@
         <span class="hide-mob">&nbsp;</span>
     </span>
     {%- for a in site.recipes -%}
-        {%- assign dir = a.path | remove: '_recipes/' | split: '/' | first -%}
+        {%- assign dir = a.categories | first -%}
         {%- assign alow = a.url -%}
         {%- if dir == cat -%}
             <a {% if a.title == selrec -%}class='highlight'{%- endif %} {% unless a.title == selrec -%}href='{{ a.url | relative_url }}'{%- endunless -%}>{{ a.title }}</a>

@@ -1,6 +1,6 @@
 {%- assign cats = site.categories | sort: "order" -%}
 {%- if page.layout == "recipe" -%}
-    {%- assign selcat = page.path | remove: '_recipes/' | split: '/' | first -%}
+    {%- assign selcat = page.categories | first -%}
 {%- elsif page.layout == "category" -%}
     {%- assign selcat = page.title | downcase | replace: ' ', '-' -%}
 {%- endif -%}
