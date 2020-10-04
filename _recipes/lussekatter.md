@@ -34,3 +34,5 @@ notes: These are so good!
 - Beat together the egg and water for your egg wash. Brush the mixture on the buns.
 - Let the buns rise in a warm, draft free place for 20-30 minutes, or until the buns are puffy and have nearly doubled in size.
 - Near the end of this last rising time, preheat your oven to 425F. Bake the buns for 8-10 min minutes, until golden. Remove the buns from the oven and let them cool on a wire rack for 5 minutes before enjoying the warm rolls!
+
+![recipe-photo](/images/lussekatter.jpg)

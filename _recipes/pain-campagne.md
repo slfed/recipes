@@ -13,3 +13,5 @@ notes:
 
 ## Method
 - 
+
+![recipe-photo](/images/pain-campagne.jpg)

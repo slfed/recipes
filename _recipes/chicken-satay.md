@@ -41,3 +41,5 @@ notes: Serve with rice
 ### Cucumber salad
 - Use a peeler to peel the cucumber and some way into the flesh.
 - Dissolve sugar into vinegar and pour over the peels.
+
+![recipe-photo](/images/chicken-satay.jpg)

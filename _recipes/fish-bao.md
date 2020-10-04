@@ -32,3 +32,5 @@ notes:
 - Roll in corn starch, then in egg, then in bread crumbs
 - Fry in about 2 cm of oil in a tiny sauce pan
 - Slap them together and garnish!
+
+![recipe-photo](/images/fish-bao.jpg)

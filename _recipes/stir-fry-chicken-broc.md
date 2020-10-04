@@ -34,3 +34,5 @@ notes:
 - Add the sauce you have mixed on the side. Mix well and let simmer for another 5 minutes, stirring occasionally. For a thinner sauce, add water to reach your desired thickness.
 - When the sauce looks bubbly and thick, and the garlic no longer has a raw smell to it, lower the heat, and stir in the broccoli, as well as the mushrooms and nuts if you choose. Let cook together for another 1-2 minutes, until the broccoli has soaked up some of the sauce and all of the vegetables look well coated.
 - Serve with rice (we used coconut rice and it was fabulous!) or thick noodles.
+
+![recipe-photo](/images/stir-fry-chicken-broc.jpg)

@@ -36,3 +36,5 @@ notes:
 - Fold the layers over the top one by one, re-buttering if need be.
 - Can add a final layer wrapped over the top if you like (more butter).
 - Bake for 20-25 minutes until golden!
+
+![recipe-photo](/images/spanakopita.jpg)

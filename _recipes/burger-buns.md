@@ -28,3 +28,5 @@ notes: Pack them close for the second prove so they nearly join in the rise.
 - Line a baking sheet with parchment paper. Divide dough into thirds. Break each third into six evenly sized balls and arrange onto prepared baking sheet. Cover balls with a towel to rise further for another 30 minutes.
 - Preheat oven to 175 degrees C.
 - Bake in preheated oven until browned, about 15 minutes.
+
+![recipe-photo](/images/burger-buns.jpg)

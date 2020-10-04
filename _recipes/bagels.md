@@ -43,3 +43,5 @@ notes:
 - Preheat the oven to 260ºC. Line at least two baking sheets with parchment paper and keep your optional seasonings nearby.
 - Remove the bagels from the fridge and boil in batches for 1½ to 2 minutes, flipping halfway through. Do not crowd the pot. After a few seconds in the water, the bagels will expand and float to the surface. Remove with a slotted spoon, and let them drain well. Sprinkle the bagels with the desired toppings and place on the prepared baking sheets.
 - Slide one baking sheet at a time onto the middle rack of the oven and bake for 5 minutes. Reduce the oven temperature to 230ºC and bake for an additional 5 to 7 minutes until golden brown and a bit crisp on the outside. Remove and let cool slightly before slicing and serving. Store any leftover bagels in an airtight plastic bag. They will keep for about 5 days, but may need to be toasted for maximum enjoyment after day 2. Bagels can also be kept in the freezer, wrapped individually in aluminum foil and then stored in an airtight plastic bag. To defrost, simply leave at room temperature for 1 hour and then toast before serving.
+
+![recipe-photo](/images/bagels.jpg)

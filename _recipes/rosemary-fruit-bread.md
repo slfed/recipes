@@ -13,3 +13,5 @@ notes:
 
 ## Method
 - 
+
+![recipe-photo](/images/rosemary-fruit-bread.jpg)

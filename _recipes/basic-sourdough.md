@@ -26,3 +26,5 @@ notes:
 - Working quickly, score the loaves, spray/brush tops with warm water and place in oven.
 - Bake for 25 - 30 minutes.
 - Optional: For extra colour, brush tops with olive oil 5 minutes before end of bake.
+
+![recipe-photo](/images/basic-sourdough.jpg)

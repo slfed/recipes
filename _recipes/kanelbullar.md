@@ -36,3 +36,5 @@ notes: The juicier the better, some would say.
 - Preheat oven to 425 F.
 - Brush risen cinnamon rolls with egg wash and sprinkle with pearl sugar and/or almonds.
 - Place in the middle of the oven and bake for 7 minutes, or until golden and firm.
+
+![recipe-photo](/images/kanelbullar.jpg)

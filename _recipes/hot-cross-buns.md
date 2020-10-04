@@ -32,3 +32,5 @@ notes:
 - Divide the dough into 7 even pieces. Roll each piece into a smooth ball on a lightly floured work surface. Arrange the buns on one or two baking trays lined with parchment, leaving enough space for the dough to expand. Cover (but don’t wrap) with more oiled cling film, or a clean tea towel, then set aside to prove for 1 hr more.
 - Heat oven to 220C. Mix 35 g plain flour with about 3 Tbsp water to make the paste for the cross – add the water 1 Tbsp at a time, so you add just enough for a thick paste. Spoon into a piping bag with a small nozzle. Pipe a line along each row of buns, then repeat in the other direction to create crosses. Bake for 20 mins on the middle shelf of the oven, until golden brown.
 - Gently heat 3 Tbsp apricot jam to melt, then sieve to get rid of any chunks. While the jam is still warm, brush over the top of the warm buns and leave to cool.
+
+![recipe-photo](/images/hot-cross-buns.jpg)

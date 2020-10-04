@@ -32,4 +32,6 @@ notes: Keep it coooold!
 - Before rolling, hold down the wide base of the triangle and gently tug the opposite thin end to cause a slight tension in the dough. Now starting at the thick end of each triangle, roll it up into a croissant. You will have 12 medium-sized croissants. For a traditional crescent shape, turn the ends in towards each other slightly.
 - Put the croissants on the baking trays, leaving space in between for them to expand; allow four-six per tray. Put each tray inside a clean plastic bag and leave the croissants to rise at cool room temperature (18–24C) until at least doubled in size. This should take about two hours.
 - Heat your oven to 200C.
-- Lightly whisk the egg with a pinch of salt to make an egg wash. Brush the top and sides of the croissants with the egg wash. Bake for 15–20 minutes or until golden brown. Cool on a wire rack. Eat warm. 
+- Lightly whisk the egg with a pinch of salt to make an egg wash. Brush the top and sides of the croissants with the egg wash. Bake for 15–20 minutes or until golden brown. Cool on a wire rack. Eat warm.
+
+![recipe-photo](/images/croissants.jpg)

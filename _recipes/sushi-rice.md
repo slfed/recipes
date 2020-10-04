@@ -25,3 +25,5 @@ notes:
 - Transfer rice to large glass bowl and fan to cool a bit.
 - Sprinkle ~1/4 cup of vinegar solution into rice and gently fold in with a spatula.
 - Continue to fan to cool before shaping.
+
+![recipe-photo](/images/sushi-rice.jpg)

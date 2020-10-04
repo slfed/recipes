@@ -27,3 +27,5 @@ notes:
 - Braid the ropes into a large challah using the six-braid method. Place the braided loaves on a baking sheet lined with parchment paper. Using a pastry brush or your fingers, coat each loaf with the reserved egg and sprinkle with sesame or poppy seeds if you like. Set aside to rise for 45 minutes, until they are puffy.
 - Preheat the oven to 180ºF. Bake the challah for 30 minutes, moving the loaves from the top rack to the bottom rack halfway through the baking time. At 30 minutes, check the challah by (carefully) lifting each one up and tapping the bottom with a knuckle. If it sounds hollow and the outside of the challah is a brownish color, it’s ready. If it sounds completely solid or is still pale in color or doughy in the places where the braids meet, bake for 5 to 10 minutes more and test again.
 - Remove the loaves from the oven and let cool on a wire rack. Serve warm or at room temperature. Challah freezes well and can be thawed and reheated before serving.
+
+![recipe-photo](/images/challah.jpg)

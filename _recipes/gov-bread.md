@@ -25,3 +25,5 @@ notes: "To do with yeast: add ½ cup each of flour and water to the recipe. Star
 - Let it rise until again it clears the rim of the tin or gets a solid rise (1 - 2 hours).
 - Bake for 35 - 45 minutes at 180 C.
 - Let it cool for 10 - 20 minutes before removing from the tin!
+
+![recipe-photo](/images/gov-bread.jpg)

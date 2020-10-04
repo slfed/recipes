@@ -31,3 +31,5 @@ notes: It cooks on a pan so not hot oven to boil your kitchen!
 - With a floured surface, prepare the balls into flat circles one-by-one, dropping them onto the pan as soon as they're ready.
 - Cook for about a minute on each side, getting nicely browned and blackened burn marks.
 - Re-oil as necessary!
+
+![recipe-photo](/images/pita.jpg)
