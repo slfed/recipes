@@ -28,4 +28,4 @@ time: 2 hours
 
 Feel free to add any desired herbs, dried fruits, or additional cheeses to spice up this basic recipe! 5 minutes before the baking has finished, you can add parmesan, cheddar, or another hard cheese to the top for a crunchy melty treat!
 
-![](/images/ricotta-bread-rolls.jpeg "ricotta bread rolls")
+![ricotta bread rolls](/images/ricotta-bread-rolls.jpeg "ricotta bread rolls")
