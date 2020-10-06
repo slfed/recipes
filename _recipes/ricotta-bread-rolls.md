@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Ricotta bread rolls
-categories: Enriched-Bread
+categories: enriched-bread
 yield: 6 rolls
 time: 2 hours
 ---
