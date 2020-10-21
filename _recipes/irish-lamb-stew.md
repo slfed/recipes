@@ -5,6 +5,8 @@ categories: mains
 yield: Serves 4
 time: 1.5 hours
 ---
+![](/images/img_0914.jpeg)
+
 ## Ingredients
 
 * At least 400g lamb shoulder in chunks
