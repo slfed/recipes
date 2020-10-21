@@ -5,8 +5,6 @@ categories: mains
 yield: Serves 4
 time: 1.5 hours
 ---
-![Irish lamb stew with roasted potatoes and a bread roll](/images/img_0914.jpeg)
-
 ## Ingredients
 
 * At least 400g lamb shoulder in chunks
@@ -29,3 +27,5 @@ time: 1.5 hours
 * Add broth (and optional beer), carrots, rutabaga, corn starch, and thyme. Mix to combine.
 * Cover and simmer for at least one hour, stirring frequently, or until lamb and vegetables are tender and the flavor is robust. You can add more corn starch or water, depending on your desired thickness.
 * Remove thyme stems and serve! Enjoy with a garnish of sour cream, and sides of rice or roasted/mashed potatoes.
+
+![Irish lamb stew with roasted potatoes and a bread roll](/images/img_0914.jpeg)
