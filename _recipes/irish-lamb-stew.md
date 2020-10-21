@@ -5,7 +5,7 @@ categories: mains
 yield: Serves 4
 time: 1.5 hours
 ---
-![](/images/img_0914.jpeg)
+![Irish lamb stew with roasted potatoes and a bread roll](/images/img_0914.jpeg)
 
 ## Ingredients
 
