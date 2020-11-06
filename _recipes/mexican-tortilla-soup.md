@@ -6,8 +6,6 @@ source: https://www.spendwithpennies.com/chicken-tortilla-soup/
 yield: "Serves 4 "
 time: 35 mins
 ---
-
-
 ## Ingredients
 
 * chicken breast fillets
@@ -38,3 +36,5 @@ time: 35 mins
 * While cooking, prepare garnish: cut the tortillas into strips, spray or brush with olive oil, and toast at 180C for around 5-10 minutes. Watch carefully to make sure they don't catch at the sides. Chop cilantro, shred cheese, and prepare avocado. 
 * After 20 minutes, remove the chicken from the pot and shred using two forks, placing them in the chicken and pulling in opposite directions. You can leave the shredded chunks relatively large, per your personal taste. Return the chicken to the pot and simmer for 3-5 more minutes. 
 * Serve hot, with plenty of garnishes!
+
+![](/images/mexican-tortilla-soup.jpeg)
