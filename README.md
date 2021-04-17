@@ -38,7 +38,7 @@ layout: category
 We love making bread!
 ```
 
-To add a recipe, add a file (e.g. `pizza.md`) under the appropriate subdirectory within `_recipes/` (if you put it at the top level, it won't be displayed) and follow the `_recipes/template.md` file or another recipe file. The variables `source`, `yield` and `notes` are optional. `source` can be a URL or simple text. Within the front-matter (between the triple dashes `---`) , use quotes `""` around strings if they contain special characters such as colons `:`.
+To add a recipe, add a file (e.g. `pizza.md`) in `_recipes/` and follow the `_recipes/template.md` file or another recipe file. The variables `source`, `yield` and `notes` are optional. `source` can be a URL or simple text. Within the front-matter (between the triple dashes `---`) , use quotes `""` around strings if they contain special characters such as colons `:`.
 
 For the content (everything after the triple-dashes `---`), use `##` for the main categories (`Ingredients` and `Method`), and `###` for sub-categories (see below). Use normal lists (`-`) for ingredients and methods. All spacing is important: new lines before `##`, after lists, and a space between `##` or `-` and text.
 
@@ -47,6 +47,7 @@ For the content (everything after the triple-dashes `---`), use `##` for the mai
 ---
 layout: recipe
 title: Pizza dough
+categories: bread
 source:
 yield: 4 pizzas
 time: 40 minutes
@@ -67,9 +68,10 @@ notes:
 ```
 
 ## Images
-Images should be placed in `/images/` with the exact same name as the recipe except with `.jpg` as the suffix, instead of `.md`.
-
-Example: `bagels.md` needs **exactly** `/images/bagels.jpg`. Anything else will not work.
+Images should be placed in `/images/` and added using Markdown syntax, e.g.:
+```
+~[photo caption](/images/pizza-photo.jpg)
+```
 
 ## Layouts
 All layout and style is contained in the following files:
