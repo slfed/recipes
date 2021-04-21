@@ -19,7 +19,6 @@ notes: Serve with Spanish rice, sour cream, avocado and cilantro
 * enchilada sauce of choice (salsa works in a pinch, homemade as found here: https://damndelicious.net/2014/03/17/homemade-enchilada-sauce/, green, or mole)
 * garnish: sour cream, avocado, cilantro, lime
 
-#### \
 Method
 
 1. Prepare the ingredients: boil sweet potato until soft and easily mashable. Chop onion and shred cheese. Preheat the oven to 180 C.
