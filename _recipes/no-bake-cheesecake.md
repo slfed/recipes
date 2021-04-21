@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: No-bake cheesecake
-categories: Baking
+categories: baking
 source: https://www.bbc.co.uk/food/recipes/easy_no-cook_cheesecake_89811
 yield: "1"
 time: 15 mins plus 4 hours chilling
