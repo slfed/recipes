@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Pesto traybake
-categories: Mains
+categories: mains
 source: https://realfood.tesco.com/gallery/10-terrific-traybake-dinner-recipes.html?id=98e0c464-0e95-445f-aece-d934eb8d7e66
 time: Quick!
 ---
