@@ -5,9 +5,9 @@ categories: baking
 source: https://sallysbakingaddiction.com/my-favorite-carrot-cake-recipe/
 yield: 1 fantastic 2-tier cake
 time: 2 hours
-notes: "  "
+notes: "  see below"
 ---
-#### Ingredients
+## Ingredients
 
 Cake
 
@@ -38,9 +38,7 @@ Frosting
 * 1 1/2 tsp vanilla or a scrape of fresh vanilla beans
 * salt to taste
 
-
-
-#### Method
+## Method
 
 1. **Make the cake**: Preheat oven to 300°F (149°C). Line a large baking sheet with parchment paper or a silicone baking mat. Spread the chopped pecans on the sheet and toast for 7-8 minutes. Remove from the oven and allow to cool for 10-15 minutes.
 2. Turn the oven up to 350°F (177°C). Grease two or three 9-inch cake pans, line with parchment paper, then grease the parchment paper. Parchment paper helps the cakes seamlessly release from the pans.
@@ -50,9 +48,7 @@ Frosting
 6. **Assemble and frost**: First, using a large serrated knife or cake leveler, layer off the tops of the cakes to create a flat surface. Place 1 cake layer on your cake stand or serving plate. Evenly cover the top with frosting. Top with 2nd layer, more frosting, and then top with the 3rd layer. Spread remaining frosting all over the top and sides. Decorate the sides and top of the cake with the remaining toasted pecans. Refrigerate cake for at least 15-20 minutes before slicing. This helps the cake hold its shape when cutting.
 7. Cover leftover frosted cake tightly and store in the refrigerator for up to 5 days.
 
-
-
-#### Additional tidbits
+## Additional tidbits
 
 1. **Make Ahead & Freezing Instructions:** The cake layers can be baked, cooled, and covered tightly at room temperature overnight. Likewise, the frosting can be prepared then covered and refrigerated overnight. When ready to decorate, let the frosting sit at room temperature to slightly soften for 15 minutes, then give it one more mix with the mixer on medium speed for about 1 minute before frosting cake. Frosted cake or unfrosted cake layers can be frozen up to 2-3 months. Thaw overnight in the refrigerator and bring to room temperature before decorating/serving.
 2. **Nuts:** If desired, you can substitute the pecans with walnuts. Or feel free to skip the nuts if you want a nut-free carrot cake. No other changes to the recipe required.
