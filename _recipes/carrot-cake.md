@@ -5,6 +5,7 @@ categories: baking
 source: https://sallysbakingaddiction.com/my-favorite-carrot-cake-recipe/
 yield: 1 fantastic 2-tier cake
 time: 2 hours
+notes: "  "
 ---
 #### Ingredients
 
