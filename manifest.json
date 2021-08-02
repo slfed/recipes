@@ -1,0 +1,16 @@
+{
+    "name": "Bouty",
+    "short_name": "Bouty",
+    "icons": [
+        {
+            "src": "logo.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff"
+}
