@@ -31,10 +31,8 @@ Note: The timing will work best for this if steps 1-3 are all started at more or
 1. Drizzle 1 tablespoon of olive oil into a large pan over a medium-high heat, add the onion and peppers. Allow to get fragrant, soft and slightly charred. Lower heat and add garlic and pre-cooked eggplant. Stir in herbs and season. Once well incorporated, and the garlic golden, remove from heat. 
 2. At the same time, empty the tin of chopped tomatoes and the tin of butterbeans into a saucepan over medium heat. Include around a tablespoon of the aquafaba from the beans to help thicken the sauce. Bring to a simmer and then lower the heat, allowing the sauce to cook down until it's sweet and thick. Can enhance with a pinch of granulated sugar, salt, pepper, and a tablespoon of sundried tomato paste.
 3. Also at the same time, add the dry polenta with the water and milk to a saucepan over a medium-low heat. Simmer and stir frequently, adding more liquid if it dries out. Try to add the cream toward the end of cooking, so it maintains some of the creamy decadence. The final consistency should by gloopy but not stiff. It should cook for no less than 20 mins to make sure it isn't gritty. As it cools, it will thicken, so err towards more liquid if you don't like a stiff polenta consistency. 
-
-   ![]()
-
-   ![]()
 4. Once the tomato mixture has thickened, add the cooked vegetables and the olives and mix. Season as needed, and finish with a glug of olive oil. 
 5. Before serving, mix some grated parmesan cheese into the polenta and allow to incorporate. 
 6. Serve the caponata over the polenta, finish with a drizzle of olive oil, cracked black pepper, and a sprinkle of parmesan!
+
+![tomato bean caponata over creamy polenta in a wide grey bowl](/images/butterbean-caponata.jpg)
