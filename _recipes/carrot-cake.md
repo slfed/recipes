@@ -60,3 +60,5 @@ Frosting
 8. **Carrot Bundt Cake:** Use a 10-12 cup generously greased bundt pan. Bake for 55-75 minutes. All ovens and bundt pans are different, so that’s why the bake time varies. Keep a close eye on it.
 9. **Add-Ins:** If you’d like to add raisins or coconut, reduce the pecans (or leave them out) to 1/2 cup. Then, add 1 cup of **raisins** or **shredded coconut**. Stick to around 1 – 1.5 cups total add-ins. Or you can leave the cake plain without any add-ins.
 10. **Carrot Cake Cupcakes:** Fill cupcake liners 2/3 full. Bake at 350°F (177°C) for 20-22 minutes. Yields about 3 dozen.
+
+![](/images/img_9472.jpeg)
