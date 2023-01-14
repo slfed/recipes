@@ -3,6 +3,7 @@ layout: recipe
 title: Triple berry cake
 categories: baking
 source: https://www.bettycrocker.com/recipes/easy-triple-berry-cake/75f123fa-8177-460f-a779-da622792fc02
+notes: First baked and eaten on queenie's funeral
 ---
 ## Ingredients
 
