@@ -1,7 +1,8 @@
 ---
 layout: recipe
 title: Fudgy Brownies
-categories: https://tasty.co/recipe/the-best-fudgy-brownies
+categories: baking
+source: https://tasty.co/recipe/the-best-fudgy-brownies
 ---
 ## Ingredients
 
